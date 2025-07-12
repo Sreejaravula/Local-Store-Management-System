@@ -1,0 +1,48 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+.pnp/
+.pnp.js
+
+# Build & Output files
+dist/
+dist-ssr/
+.vite/
+.next/
+out/
+*.tsbuildinfo
+coverage/
+
+# Environment variables & Local Config
+.env
+*.local
+
+# Bolt database
+.bolt/
+
+# OS-specific (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor/IDE settings
+.vscode/*
+!.vscode/extensions.json  # Keep shared extensions
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary & Backup files
+*.bak
+*.swp
+*.swo
